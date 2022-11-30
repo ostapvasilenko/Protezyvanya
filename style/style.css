@@ -1,39 +1,145 @@
-li{
+li {
     list-style: none;
 }
-a{
+
+a {
     text-decoration: none;
 }
-.header__menu a{
+
+.header__menu a {
     margin-left: 35px;
     margin-bottom: 0;
     font-size: 24px;
-font-weight: 700;
-color: #053412;
+    font-weight: 700;
+    color: #053412;
 }
-header{
+
+header {
     display: flex;
     align-items: center;
     height: 108px;
 }
-.header__stroke{
+
+.header__stroke {
     width: 14px;
     height: 6px;
     margin-bottom: 12px;
 }
-.header__lang{
+
+.header__lang {
     font-weight: 700;
-font-size: 24px;
-color: #053412;
-margin-left: 8px;
+    font-size: 24px;
+    color: #053412;
+    margin-left: 8px;
 }
-.header__menu_body{
+
+.header__menu_body {
     background: #E9E9E9;
-border-radius: 10px;
-padding: 0px 15px 7px;
+    border-radius: 10px;
+    padding: 0px 15px 7px;
 }
-.main__line{
+
+.main__line {
     height: 4px;
-background: #EBEBEB;
+    background: #EBEBEB;
 }
-    
+
+.last__menu_item {
+    margin-bottom: 0;
+    margin-right: 30px;
+    font-size: 20px;
+    color: gray;
+}
+
+.last__menu_item:hover {
+    color: #053412;
+}
+
+.active {
+    font-size: 20px;
+    color: #053412;
+}
+
+.hero__title {
+    font-weight: 700;
+    font-size: 36px;
+    text-transform: uppercase;
+
+    color: #64A476;
+}
+
+.hero__subtitle {
+    font-size: 20px;
+    color: black;
+}
+
+.hero__main-body {
+    background: #DEDEDE;
+    border-radius: 10px;
+    padding: 44px 240px;
+}
+
+.hero__last-body {
+    background: #E3F4E8;
+    border-radius: 10px;
+    padding: 44px 240px;
+}
+
+.hero__main-body_number {
+    font-weight: 700;
+    font-size: 64px;
+    color: #933535;
+}
+
+.hero__last-body_number {
+    font-weight: 700;
+    font-size: 64px;
+    color: #003611;
+}
+
+.hero__main-body_text {
+    font-size: 32px;
+    color: black;
+    /* margin-left: 66px; */
+}
+
+.hero__last-body_text {
+    font-size: 32px;
+    color: black;
+    /* margin-left: 96px; */
+}
+
+.hero__registration-text {
+    font-size: 20px;
+    color: black;
+    margin: 0px 30px 0px 0px;
+}
+
+.hero__registration_buttton {
+    border: 1px solid #767676;
+    border-radius: 10px;
+    padding: 8px 26px 12px;
+    font-weight: 700;
+    font-size: 24px;
+    color: #474747;
+}
+
+.hero__child-body {
+    background: #EDEDED;
+    border-radius: 10px;
+}
+
+.hero__child-body_info-text {
+    font-size: 20px;
+    color: black;
+}
+
+.hero__child-body_info-number {
+    font-weight: 700;
+    font-size: 32px;
+    color: black;
+}
+
+.hero__child-body_info {
+    margin-left: 32px;
+}
