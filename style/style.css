@@ -100,13 +100,11 @@ header {
 .hero__main-body_text {
     font-size: 32px;
     color: black;
-    /* margin-left: 66px; */
 }
 
 .hero__last-body_text {
     font-size: 32px;
     color: black;
-    /* margin-left: 96px; */
 }
 
 .hero__registration-text {
@@ -127,19 +125,35 @@ header {
 .hero__child-body {
     background: #EDEDED;
     border-radius: 10px;
+    width: 100%;
+    padding: 16px 36px;
 }
 
 .hero__child-body_info-text {
     font-size: 20px;
     color: black;
+    margin-bottom: 0;
 }
 
 .hero__child-body_info-number {
     font-weight: 700;
     font-size: 32px;
     color: black;
+    margin-bottom: 0;
 }
 
 .hero__child-body_info {
     margin-left: 32px;
+}
+
+.hero__child-body_img-one {
+    width: 30px;
+    height: 38px;
+}
+
+.hero__child-body_img-two {
+    width: 38px;
+    height: 38px;
+    background-color: #929292;
+    border-radius: 50%;
 }
