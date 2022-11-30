@@ -1,0 +1,39 @@
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.header__menu a{
+    margin-left: 35px;
+    margin-bottom: 0;
+    font-size: 24px;
+font-weight: 700;
+color: #053412;
+}
+header{
+    display: flex;
+    align-items: center;
+    height: 108px;
+}
+.header__stroke{
+    width: 14px;
+    height: 6px;
+    margin-bottom: 12px;
+}
+.header__lang{
+    font-weight: 700;
+font-size: 24px;
+color: #053412;
+margin-left: 8px;
+}
+.header__menu_body{
+    background: #E9E9E9;
+border-radius: 10px;
+padding: 0px 15px 7px;
+}
+.main__line{
+    height: 4px;
+background: #EBEBEB;
+}
+    
