@@ -19,9 +19,11 @@ header {
     align-items: center;
     height: 108px;
 }
-.header__menu{
+
+.header__menu {
     display: flex;
 }
+
 .header__stroke {
     width: 14px;
     height: 6px;
@@ -35,29 +37,35 @@ header {
     margin-left: 8px;
     padding-left: 0;
 }
-.header__logo_text{
+
+.header__logo_text {
     font-size: 24px;
     color: #45965B;
     margin-left: 16px;
 }
+
 .header__menu_body {
     background: #E9E9E9;
     border-radius: 10px;
     padding: 0px 15px 7px;
 }
+
 @media screen and (max-width: 1200px) {
-    .header__menu{
+    .header__menu {
         display: none;
     }
-    .hero__main-body{
+
+    .hero__main-body {
         display: block;
     }
 }
+
 @media screen and (max-width: 767px) {
-    .last__menu{
+    .last__menu {
         display: none;
     }
-    .header__logo_text{
+
+    .header__logo_text {
         display: none;
     }
 }
@@ -181,36 +189,64 @@ header {
     background-color: #929292;
     border-radius: 50%;
 }
-.registration__body{
+
+.registration__body {
     background-color: #C6DBCC;
     height: 2392px;
     margin-top: 42px;
 }
-.registration__title{
+
+.registration__title {
     font-weight: 700;
-font-size: 28px;
-text-transform: uppercase;
-color: #000000;
-margin-top: 90px;
+    font-size: 28px;
+    text-transform: uppercase;
+    color: #000000;
+    margin-top: 90px;
 }
-.registration__subtitle{
+
+.registration__subtitle {
     display: flex;
     font-weight: 700;
-font-size: 22px;
-color: #000000;
-margin-top: 56px;
-}
-.registration__subtitle p{
-    color: gray;
-}
-label{
-    cursor: pointer;
     font-size: 22px;
     color: #000000;
+    margin-top: 56px;
 }
-input{
-    cursor: pointer;
-width: 40px;
-height: 40px;
-background-color:  #45965B;
+
+.registration__subtitle p {
+    color: gray;
+}
+ .reg__form{
+    width: 100%;
+    height: 60px;
+ }
+ .reg__form_next{
+    width: 45px;
+    height: 45px;
+ }
+
+ input{
+    border: 2px solid #64A476;
+ }
+ 
+ .reg__form::placeholder{
+    padding-left: 24px;
+    font-size: 24px;
+ }
+
+.checkbox {
+    position: relative;
+    top: 60px;
+    left: -30px;
+}
+.reg__form_next-text{
+    font-size: 22px;
+    color: #000000;
+    margin-bottom: 0;
+    margin-left: 20px;
+}
+span input{
+    margin-left: 62px;
+}
+.reg__form_text-last input{
+    margin-left: 140px;
 }
