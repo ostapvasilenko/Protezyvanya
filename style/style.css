@@ -33,6 +33,7 @@ header {
     font-size: 24px;
     color: #053412;
     margin-left: 8px;
+    padding-left: 0;
 }
 .header__logo_text{
     font-size: 24px;
@@ -179,4 +180,37 @@ header {
     height: 38px;
     background-color: #929292;
     border-radius: 50%;
+}
+.registration__body{
+    background-color: #C6DBCC;
+    height: 2392px;
+    margin-top: 42px;
+}
+.registration__title{
+    font-weight: 700;
+font-size: 28px;
+text-transform: uppercase;
+color: #000000;
+margin-top: 90px;
+}
+.registration__subtitle{
+    display: flex;
+    font-weight: 700;
+font-size: 22px;
+color: #000000;
+margin-top: 56px;
+}
+.registration__subtitle p{
+    color: gray;
+}
+label{
+    cursor: pointer;
+    font-size: 22px;
+    color: #000000;
+}
+input{
+    cursor: pointer;
+width: 40px;
+height: 40px;
+background-color:  #45965B;
 }
