@@ -215,6 +215,9 @@ header {
 .registration__subtitle p {
     color: gray;
 }
+.registration__subtitle_next p {
+    color: gray;
+}
  .reg__form{
     width: 100%;
     height: 60px;
@@ -249,4 +252,15 @@ span input{
 }
 .reg__form_text-last input{
     margin-left: 140px;
+}
+.registration__subtitle_next{
+    display: flex;
+    font-weight: 700;
+font-size: 22px;
+color: #000000;
+}
+.reg__form_next-body{
+    width: 100%;
+    height: 300px;
+    font-size: 24px;
 }
