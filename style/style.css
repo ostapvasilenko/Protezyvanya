@@ -192,7 +192,7 @@ header {
 
 .registration__body {
     background-color: #C6DBCC;
-    height: 2392px;
+    height: 1600px;
     margin-top: 42px;
 }
 
@@ -215,52 +215,152 @@ header {
 .registration__subtitle p {
     color: gray;
 }
+
 .registration__subtitle_next p {
     color: gray;
 }
- .reg__form{
+
+.reg__form {
     width: 100%;
     height: 60px;
- }
- .reg__form_next{
+}
+
+.reg__form_next {
     width: 45px;
     height: 45px;
- }
+}
 
- input{
+input {
     border: 2px solid #64A476;
- }
- 
- .reg__form::placeholder{
+}
+
+.reg__form::placeholder {
     padding-left: 24px;
     font-size: 24px;
- }
+}
 
 .checkbox {
     position: relative;
     top: 60px;
     left: -30px;
 }
-.reg__form_next-text{
+
+.reg__form_next-text {
     font-size: 22px;
     color: #000000;
     margin-bottom: 0;
     margin-left: 20px;
 }
-span input{
+
+span input {
     margin-left: 62px;
 }
-.reg__form_text-last input{
+
+.reg__form_text-last input {
     margin-left: 140px;
 }
-.registration__subtitle_next{
+
+.registration__subtitle_next {
     display: flex;
     font-weight: 700;
-font-size: 22px;
-color: #000000;
+    font-size: 22px;
+    color: #000000;
 }
-.reg__form_next-body{
+
+.reg__form_next-body {
     width: 100%;
     height: 300px;
     font-size: 24px;
+}
+
+.reg__button {
+    display: flex;
+    justify-content: center;
+    background: #4C9F62;
+    border-radius: 10px;
+    padding-top: 18px;
+    padding-bottom: 24px;
+}
+
+.red__button_text {
+    font-weight: 700;
+    font-size: 32px;
+    color: #FFFFFF;
+    margin-bottom: 0;
+}
+
+.main__text {
+    font-size: 20px;
+    color: #000000;
+}
+
+.main__footer {
+    background: #053412;
+    height: 318px;
+}
+
+.last__footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #01270C;
+    height: 60px;
+    color: #C2C2C2;
+}
+
+.last__footer p {
+    margin-bottom: 0;
+}
+
+.footer__logo {
+    display: flex;
+    align-items: center;
+}
+
+.footer__logo_text {
+    margin-left: 20px;
+    font-size: 24px;
+    color: #45965B;
+}
+
+.footer__nav {
+    display: flex;
+}
+
+.footer__nav a {
+    font-weight: 700;
+    font-size: 24px;
+    color: #C0ECCC;
+    padding: 0px 25px;
+}
+
+a.footer__nav_body {
+    background: #C0ECCC;
+    border-radius: 10px;
+    padding: 0px 15px 7px;
+    color: #003611;
+}
+
+.footer__mail {
+    font-size: 20px;
+    color: #C0ECCC;
+}
+
+.footer__date {
+    color: #C0ECCC;
+}
+
+.footer__info_tel {
+    color: white;
+    font-size: 20px;
+}
+
+.footer__info_tel span {
+    font-weight: 700;
+    color: white;
+    font-size: 20px;
+}
+
+.footer__info {
+    margin-right: 50px;
 }
