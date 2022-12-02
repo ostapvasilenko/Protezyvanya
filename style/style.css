@@ -50,25 +50,7 @@ header {
     padding: 0px 15px 7px;
 }
 
-@media screen and (max-width: 1200px) {
-    .header__menu {
-        display: none;
-    }
 
-    .hero__main-body {
-        display: block;
-    }
-}
-
-@media screen and (max-width: 767px) {
-    .last__menu {
-        display: none;
-    }
-
-    .header__logo_text {
-        display: none;
-    }
-}
 
 .main__line {
     height: 4px;
@@ -192,7 +174,7 @@ header {
 
 .registration__body {
     background-color: #C6DBCC;
-    height: 1600px;
+    padding: 90px 0px 148px;
     margin-top: 42px;
 }
 
@@ -201,7 +183,6 @@ header {
     font-size: 28px;
     text-transform: uppercase;
     color: #000000;
-    margin-top: 90px;
 }
 
 .registration__subtitle {
@@ -363,4 +344,38 @@ a.footer__nav_body {
 
 .footer__info {
     margin-right: 50px;
+}
+@media screen and (max-width: 1200px) {
+    .header__menu {
+        display: none;
+    }
+
+    .hero__main-body {
+        display: block;
+    }
+    .footer__mail{
+        display: none;
+    }
+    .footer__nav{
+        display: block;
+    }
+    p.footer__info{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .last__menu {
+        display: none;
+    }
+
+    .header__logo_text {
+        display: none;
+    }
+
+}
+@media screen and (max-width: 576px) {
+    .footer__logo_text{
+        display: none;
+    }
 }
