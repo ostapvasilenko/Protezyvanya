@@ -210,31 +210,32 @@ header {
     width: 45px;
     height: 45px;
 }
-.registration__main-img{
-    margin-bottom: 70px;
-    margin-left: 20px;
-}
-.registration__img{
+
+.registration__img {
     position: relative;
     height: 40px;
     width: 40px;
     background-color: #000000;
     border-radius: 50%;
 }
-.registration__img img{
+
+.registration__img img {
     position: absolute;
 }
 
-.registration__text{
+.registration__text {
     display: block;
     position: relative;
     margin-left: -40px;
-    padding-bottom: 50px;
     margin-bottom: 12px;
     margin-top: 160px;
     cursor: pointer;
     font-size: 22px;
     color: #000000;
+}
+
+.ress {
+    margin-left: -22px;
 }
 
 .registration__text input {
@@ -255,21 +256,25 @@ header {
     border: 2px solid #64A476;
 }
 
-.registration__text:hover input ~ .checkmark {
+.registration__text:hover input~.checkmark {
     background-color: #ccc;
 }
-.registration__text input:checked ~ .checkmark {
+
+.registration__text input:checked~.checkmark {
     background: #16682C;
     border: 2px solid #64A476;
 }
+
 .checkmark:after {
     content: "";
     position: absolute;
     display: none;
 }
-.registration__text input:checked ~ .checkmark:after {
+
+.registration__text input:checked~.checkmark:after {
     display: block;
 }
+
 .registration__text .checkmark:after {
     left: 12px;
     top: 0px;
@@ -281,10 +286,10 @@ header {
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
 }
-.registration__label{
-    margin-top: 50px;
-}
 
+.registration__label {
+    margin-top: 150px;
+}
 
 input {
     border: 2px solid #64A476;
@@ -420,6 +425,7 @@ a.footer__nav_body {
 .footer__info {
     margin-right: 50px;
 }
+
 @media screen and (max-width: 1200px) {
     .header__menu {
         display: none;
@@ -428,13 +434,16 @@ a.footer__nav_body {
     .hero__main-body {
         display: block;
     }
-    .footer__mail{
+
+    .footer__mail {
         display: none;
     }
-    .footer__nav{
+
+    .footer__nav {
         display: block;
     }
-    p.footer__info{
+
+    p.footer__info {
         display: none;
     }
 }
@@ -449,8 +458,9 @@ a.footer__nav_body {
     }
 
 }
+
 @media screen and (max-width: 576px) {
-    .footer__logo_text{
+    .footer__logo_text {
         display: none;
     }
 }
