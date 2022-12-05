@@ -5,10 +5,7 @@ li {
 a {
     text-decoration: none;
 }
-input,
-label {
-    cursor: pointer;
-}
+
 .header__menu a {
     margin-left: 35px;
     margin-bottom: 0;
@@ -297,6 +294,7 @@ header {
 input {
     border: 2px solid #64A476;
 }
+
 .reg__form::placeholder {
     padding-left: 24px;
     font-size: 24px;
@@ -312,20 +310,54 @@ input {
     font-size: 22px;
     color: #000000;
     margin-bottom: 0;
-    margin-left: 20px;
+    margin-left: 30px;
 }
 
 span input {
     margin-left: 62px;
 }
-#accent {
-    accent-color: #16682C;
-    width: 45px;
-    height: 45px;
+
+input[type='radio'],
+label {
+    cursor: pointer;
 }
-#accent label{
-    padding-left: 15px;
+
+input[type='radio'] {
+    position: relative;
+    height: 22px;
+    width: 22px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    outline: none;
 }
+
+input[type='radio']::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border: 2px solid #64A476;
+}
+
+input[type='radio']:checked::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: #16682C;
+    transform: translate(-50%, -50%);
+    visibility: visible;
+}
+
 .reg__form_text-last input {
     margin-left: 140px;
 }
