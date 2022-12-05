@@ -210,6 +210,10 @@ header {
     width: 45px;
     height: 45px;
 }
+.registration__main-img{
+    margin-bottom: 70px;
+    margin-left: 20px;
+}
 .registration__img{
     position: relative;
     height: 40px;
@@ -220,12 +224,67 @@ header {
 .registration__img img{
     position: absolute;
 }
+
 .registration__text{
+    display: block;
+    position: relative;
+    margin-left: -40px;
+    padding-bottom: 50px;
+    margin-bottom: 12px;
+    margin-top: 160px;
+    cursor: pointer;
     font-size: 22px;
     color: #000000;
-    margin-top: 18px;
-    margin-bottom: 12px;
 }
+
+.registration__text input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+.checkmark {
+    position: absolute;
+    top: 45px;
+    left: 0;
+    height: 40px;
+    width: 40px;
+    background-color: #eee;
+    border: 2px solid #64A476;
+}
+
+.registration__text:hover input ~ .checkmark {
+    background-color: #ccc;
+}
+.registration__text input:checked ~ .checkmark {
+    background: #16682C;
+    border: 2px solid #64A476;
+}
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+.registration__text input:checked ~ .checkmark:after {
+    display: block;
+}
+.registration__text .checkmark:after {
+    left: 12px;
+    top: 0px;
+    width: 14px;
+    height: 24px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+.registration__label{
+    margin-top: 50px;
+}
+
 
 input {
     border: 2px solid #64A476;
