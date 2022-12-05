@@ -5,7 +5,10 @@ li {
 a {
     text-decoration: none;
 }
-
+input,
+label {
+    cursor: pointer;
+}
 .header__menu a {
     margin-left: 35px;
     margin-bottom: 0;
@@ -294,7 +297,6 @@ header {
 input {
     border: 2px solid #64A476;
 }
-
 .reg__form::placeholder {
     padding-left: 24px;
     font-size: 24px;
@@ -316,7 +318,14 @@ input {
 span input {
     margin-left: 62px;
 }
-
+#accent {
+    accent-color #16682C;
+    width: 45px;
+    height: 45px;
+}
+.accent{
+    border: 2px solid  #64A476;
+}
 .reg__form_text-last input {
     margin-left: 140px;
 }
