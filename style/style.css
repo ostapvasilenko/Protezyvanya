@@ -319,12 +319,12 @@ span input {
     margin-left: 62px;
 }
 #accent {
-    accent-color #16682C;
+    accent-color: #16682C;
     width: 45px;
     height: 45px;
 }
-.accent{
-    border: 2px solid  #64A476;
+#accent label{
+    padding-left: 15px;
 }
 .reg__form_text-last input {
     margin-left: 140px;
